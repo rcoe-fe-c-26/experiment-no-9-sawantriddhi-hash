@@ -7,7 +7,7 @@ print("--- Factorial Finder ---\n")
 
 
 # Write your code here 
-N = int(input("Enter Number:"))
+N = int(input())
 
 if N < 0:
     print(f"Factorial of {N} is Not Defined")
@@ -16,6 +16,8 @@ else:
     for x in range(1, N + 1):
         fact = fact * x
     print(f"Factorial of {N} is {fact}")
+
+
 
 
 
