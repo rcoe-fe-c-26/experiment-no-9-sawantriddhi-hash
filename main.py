@@ -8,14 +8,13 @@ print("--- Factorial Finder ---\n")
 
 # Write your code here 
 N = int(input("Enter Number:"))
-fact = 1
-for x in range(N , 0 , -1):
-    fact = fact*x
 if(N<0):
     print(f"Factorial of {abs(N)} is Not Defined")
 else:
-    print(f"Factorial of {N} is {fact}")    
-
+    fact = 1
+    for x in range(N , 0 , -1):
+     fact = fact*x
+print(f"Factorial of {N} is {fact}")   
 
 
 
